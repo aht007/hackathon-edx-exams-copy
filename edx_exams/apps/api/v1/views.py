@@ -644,3 +644,7 @@ class CourseProviderSettingsView(ExamsAPIView):
                 'provider_name': provider.verbose_name,
             })
         return Response({})
+
+    def uncovered_new_method(self):
+        print('hello')
+        print('I am uncovered')
