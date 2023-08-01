@@ -645,8 +645,6 @@ class CourseProviderSettingsView(ExamsAPIView):
             })
         return Response({})
 
-
     def uncovered_new_method(self):
-        print("hello")
-        print("I am uncovered")
-
+        print('hello')
+        print('I am uncovered')
